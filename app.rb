@@ -10,4 +10,8 @@ class App < Sinatra::Base
     "Hometown"
   end
 
+  get '/favorite-song' do
+    "Favorite song"
+  end
+
 end
